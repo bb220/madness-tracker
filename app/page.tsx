@@ -4,8 +4,10 @@ const matchups: Matchup[] = [
   {
     myTeam: "McNeese",
     mySeed: 12,
+    myScore: 0,
     theirTeam: "Vanderbilt",
     theirSeed: 5,
+    theirScore: 0,
     spread: "+11.5",
     role: "dog",
     tipTime: "3:15 PM ET",
@@ -17,8 +19,10 @@ const matchups: Matchup[] = [
   {
     myTeam: "Illinois",
     mySeed: 3,
+    myScore: 0,
     theirTeam: "Penn",
     theirSeed: 14,
+    theirScore: 0,
     spread: "-24.5",
     role: "fav",
     tipTime: "9:25 PM ET",
@@ -30,8 +34,10 @@ const matchups: Matchup[] = [
   {
     myTeam: "Idaho",
     mySeed: 15,
+    myScore: 0,
     theirTeam: "Houston",
     theirSeed: 2,
+    theirScore: 0,
     spread: "+23.5",
     role: "dog",
     tipTime: "10:10 PM ET",
@@ -43,8 +49,10 @@ const matchups: Matchup[] = [
   {
     myTeam: "Santa Clara",
     mySeed: 10,
+    myScore: 0,
     theirTeam: "Kentucky",
     theirSeed: 7,
+    theirScore: 0,
     spread: "+3.5",
     role: "dog",
     tipTime: "12:15 PM ET",
@@ -56,8 +64,10 @@ const matchups: Matchup[] = [
   {
     myTeam: "Tennessee",
     mySeed: 6,
+    myScore: 0,
     theirTeam: "TBD",
     theirSeed: 11,
+    theirScore: 0,
     // ESPN listed this matchup's betting line as TBD.
     spread: "+12.5",
     role: "tbd",
@@ -70,8 +80,10 @@ const matchups: Matchup[] = [
   {
     myTeam: "Clemson",
     mySeed: 8,
+    myScore: 0,
     theirTeam: "Iowa",
     theirSeed: 9,
+    theirScore: 0,
     spread: "+2.5",
     role: "dog",
     tipTime: "6:50 PM ET",
@@ -83,8 +95,10 @@ const matchups: Matchup[] = [
   {
     myTeam: "Purdue",
     mySeed: 2,
+    myScore: 0,
     theirTeam: "Queens",
     theirSeed: 15,
+    theirScore: 0,
     spread: "-25.5",
     role: "fav",
     tipTime: "7:35 PM ET",
@@ -96,8 +110,10 @@ const matchups: Matchup[] = [
   {
     myTeam: "Cal Baptist",
     mySeed: 13,
+    myScore: 0,
     theirTeam: "Kansas",
     theirSeed: 4,
+    theirScore: 0,
     spread: "+14.5",
     role: "dog",
     tipTime: "9:45 PM ET",

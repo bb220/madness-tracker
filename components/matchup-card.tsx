@@ -3,8 +3,10 @@ import { cn } from "@/lib/utils"
 export interface Matchup {
   myTeam: string
   mySeed: number
+  myScore: number
   theirTeam: string
   theirSeed: number
+  theirScore: number
   spread: string
   role: "dog" | "fav" | "tbd"
   tipTime: string
@@ -22,8 +24,10 @@ export function MatchupCard({ matchup }: MatchupCardProps) {
   const {
     myTeam,
     mySeed,
+    myScore,
     theirTeam,
     theirSeed,
+    theirScore,
     spread,
     role,
     tipTime,
@@ -32,6 +36,10 @@ export function MatchupCard({ matchup }: MatchupCardProps) {
     region,
     opponent,
   } = matchup
+
+  const scoreDiff = theirScore - myScore
+  const formatScore = (score: number) => (score === 0 ? "-" : `${score}`)
+  const formattedScoreDiff = scoreDiff === 0 ? "-" : scoreDiff > 0 ? `+${scoreDiff}` : `${scoreDiff}`
 
   const cardClass = cn(
     "relative overflow-hidden rounded-[10px] border bg-white p-3.5 px-4 shadow-sm",
@@ -85,9 +93,20 @@ export function MatchupCard({ matchup }: MatchupCardProps) {
         <span className="text-[#a0b8cc]">{date}</span>
       </div>
 
+      {/* Score row */}
+      <div className="mb-2.5 flex items-center justify-between text-[12px] font-semibold">
+        <span className="text-[#0a1f3c]">{formatScore(myScore)}</span>
+        <span className="text-[#7a9bb5]">{formatScore(theirScore)}</span>
+      </div>
+
       {/* Meta row */}
       <div className="flex items-center justify-between">
-        <span className={spreadClass}>{spread}</span>
+        <div className="flex items-center gap-1.5">
+          <span className={spreadClass}>{spread}</span>
+          <span className="text-[12px] font-semibold text-[#7a9bb5]">
+            {formattedScoreDiff}
+          </span>
+        </div>
         <span className={roleBadgeClass}>
           {role === "dog" ? "Underdog" : role === "fav" ? "Favorite" : "Pending"}
         </span>

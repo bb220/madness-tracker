@@ -58,6 +58,7 @@ const matchups: Matchup[] = [
     mySeed: 6,
     theirTeam: "TBD",
     theirSeed: 11,
+    // ESPN listed this matchup's betting line as TBD.
     spread: "+12.5",
     role: "tbd",
     tipTime: "4:25 PM ET",

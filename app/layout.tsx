@@ -17,7 +17,6 @@ const dmSans = DM_Sans({
 export const metadata: Metadata = {
   title: "Brandon's Matchups",
   description: 'March Madness bracket matchups tracker',
-  generator: 'v0.app',
   icons: {
     icon: [
       {

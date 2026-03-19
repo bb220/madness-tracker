@@ -23,7 +23,7 @@ const matchups: Matchup[] = [
     theirTeam: "Penn",
     theirSeed: 14,
     theirScore: 0,
-    spread: "-24.5",
+    spread: "-25.5",
     role: "fav",
     tipTime: "9:25 PM ET",
     network: "TNT",
@@ -68,8 +68,7 @@ const matchups: Matchup[] = [
     theirTeam: "TBD",
     theirSeed: 11,
     theirScore: 0,
-    // ESPN listed this matchup's betting line as TBD.
-    spread: "+12.5",
+    spread: "-11.5",
     role: "tbd",
     tipTime: "4:25 PM ET",
     network: "TBS",

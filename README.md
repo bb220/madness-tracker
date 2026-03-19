@@ -1,6 +1,6 @@
 # madness-tracker
 - experimental software project that tracks march madness games
-- fun and simple exploration of agents, automations, and personalized software (not prod-grade, not a multitenant solution)
+- fun and simple. explores agents, automations, and hyperspecialized personal software (not prod-grade, not a multitenant solution)
 
 <div align="center">
 

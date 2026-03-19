@@ -4,10 +4,10 @@ const matchups: Matchup[] = [
   {
     myTeam: "McNeese",
     mySeed: 12,
-    myScore: 35,
+    myScore: 57,
     theirTeam: "Vanderbilt",
     theirSeed: 5,
-    theirScore: 45,
+    theirScore: 63,
     spread: "+11.5",
     role: "dog",
     tipTime: "3:15 PM ET",

@@ -69,7 +69,7 @@ const matchups: Matchup[] = [
     theirSeed: 11,
     theirScore: 0,
     spread: "-11.5",
-    role: "tbd",
+    role: "fav",
     tipTime: "4:25 PM ET",
     network: "TBS",
     date: "Fri Mar 20",

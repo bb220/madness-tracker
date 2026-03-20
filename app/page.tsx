@@ -67,7 +67,7 @@ const matchups: Matchup[] = [
     myScore: 0,
     theirTeam: "Texas Tech",
     theirSeed: 5,
-    theirScore: 0,
+    theirScore: 2,
     spread: "+7.5",
     role: "dog",
     tipTime: "12:40 PM ET",

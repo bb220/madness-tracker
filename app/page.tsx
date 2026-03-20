@@ -79,10 +79,10 @@ const matchups: Matchup[] = [
   {
     myTeam: "Virginia",
     mySeed: 3,
-    myScore: 67,
+    myScore: 82,
     theirTeam: "Wright State",
     theirSeed: 14,
-    theirScore: 61,
+    theirScore: 73,
     spread: "-18.5",
     role: "fav",
     tipTime: "1:50 PM ET",
